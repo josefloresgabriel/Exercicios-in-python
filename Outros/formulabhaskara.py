@@ -1,3 +1,8 @@
+'''
+    Programa criado para resolver equações de segundo grau,
+    caso a raiz seja negativa ou divisao por 0 o programa
+    irar imprimir: impossivel calcular.
+'''
 a = float(input())
 b = float(input())
 c = float(input())
