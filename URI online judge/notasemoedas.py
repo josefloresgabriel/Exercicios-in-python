@@ -10,5 +10,5 @@ print('MOEDAS:')
 total = 0
 for m in moedas:
     total = valor // m
-    print('{} moeda(s) de R$ {}'.format(total, m))
+    print('{:.0f} moeda(s) de R$ {:.2f}'.format(total, m))
     valor -= total * m
