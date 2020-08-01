@@ -1,0 +1,7 @@
+nome = str(input('Nome: '))
+idade = int(input('Idade: '))
+peso = float(input('Peso: '))
+altura = float(input('Altura: '))
+n_sus = str(input('Número do SUS:'))
+diagnostico = str(input('Diagnostico: '))
+print(f'{nome};{idade};{n_sus};{peso};{altura};{diagnostico}')
